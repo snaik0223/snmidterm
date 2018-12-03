@@ -15,7 +15,7 @@ class InsertUserTest extends TestCase
      * @return void
      * */
 
-    public function testExample()
+    public function testInsertUser()
    {
         $user = new User();
        $data =  [

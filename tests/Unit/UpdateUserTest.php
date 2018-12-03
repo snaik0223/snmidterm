@@ -14,7 +14,7 @@ class UpdateUserTest extends TestCase
      *
      * @return void
      */
-    public function testExample()
+    public function testUpdateUser()
 
     /** updating user 42. Kevon Stracke $user */
 

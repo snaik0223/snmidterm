@@ -7,19 +7,18 @@ use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use App\User;
 
-class DeleteUserTest extends TestCase
+class CountUserTest extends TestCase
 {
     /**
      * A basic test example.
      *
      * @return void
      */
-    public function testDeleteUser()
+    public function testCountUser()
     {
-       factory(User::class)->create();
-        $user = User::first();
-        if($user)
-            $user->delete();
+        $userCount = 50;
+        $users = factory(User::class, 50 )->create();
+        $this->assertLessThanOrEqual( $userCount, \count( $users ) );
         $this->assertTrue(true);
     }
 }
