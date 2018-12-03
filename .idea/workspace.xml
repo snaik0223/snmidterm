@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab3b8279-d820-4225-bac3-189c9747308f" name="Default Changelist" comment="Task: Laravel Authentication Setup" />
+    <list default="true" id="ab3b8279-d820-4225-bac3-189c9747308f" name="Default Changelist" comment="Task: Laravel Authentication Setup">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +58,7 @@
           <entry key="Procfile" value="1" />
           <entry key="env" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="php" value="47" />
+          <entry key="php" value="49" />
           <entry key="sql" value="3" />
           <entry key="sqlite" value="1" />
           <entry key="users" value="11" />
@@ -68,7 +70,7 @@
           <entry key=".env file" value="1" />
           <entry key="Blade" value="15" />
           <entry key="Database Element" value="19" />
-          <entry key="PHP" value="32" />
+          <entry key="PHP" value="34" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Scratch" value="3" />
         </counts>
@@ -77,7 +79,7 @@
         <counts>
           <entry key="dummy" value="6" />
           <entry key="env" value="19" />
-          <entry key="php" value="496" />
+          <entry key="php" value="541" />
           <entry key="txt" value="35" />
         </counts>
       </usages-collector>
@@ -85,7 +87,7 @@
         <counts>
           <entry key=".env file" value="19" />
           <entry key="Blade" value="47" />
-          <entry key="PHP" value="449" />
+          <entry key="PHP" value="494" />
           <entry key="PLAIN_TEXT" value="41" />
         </counts>
       </usages-collector>
@@ -111,11 +113,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/Feature/AboutPageTest.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/Feature/ContactPageTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/Unit/InsertUserTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+              <folding>
+                <element signature="e#30#49#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -148,6 +171,8 @@
         <option value="$PROJECT_DIR$/tests/Feature/RegisterTest.php" />
         <option value="$PROJECT_DIR$/tests/Feature/LoginTest.php" />
         <option value="$PROJECT_DIR$/tests/Feature/AboutPageTest.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/ContactPageTest.php" />
+        <option value="$PROJECT_DIR$/tests/Unit/InsertUserTest.php" />
       </list>
     </option>
   </component>
@@ -254,10 +279,11 @@
       <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="y" value="28" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1494" />
+    <option name="y" value="-1004" />
     <option name="width" value="1280" />
-    <option name="height" value="699" />
+    <option name="height" value="788" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -285,6 +311,12 @@
               <item name="snmidterm" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="Feature" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="snmidterm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="snmidterm" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="Unit" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -340,7 +372,7 @@
       <option name="presentableId" value="Default" />
       <updated>1543813387381</updated>
       <workItem from="1543813392163" duration="7359000" />
-      <workItem from="1543821819726" duration="7024000" />
+      <workItem from="1543821819726" duration="8027000" />
     </task>
     <task id="LOCAL-00001" summary="Task: Laravel Authentication Setup">
       <created>1543815875928</created>
@@ -353,12 +385,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14383000" />
+    <option name="totallyTimeSpent" value="15386000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="28" width="1280" height="699" extended-state="0" />
+    <frame x="-205" y="-1669" width="3008" height="1669" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20597738" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08597437" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -372,12 +404,12 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.34266886" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.7013316" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.16639742" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.06945381" />
     </layout>
     <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -587,6 +619,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/ContactPageTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/InsertUserTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+          <folding>
+            <element signature="e#30#49#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
