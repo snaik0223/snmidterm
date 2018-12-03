@@ -18,7 +18,7 @@
                 </div>
                     <p>
                         <a href="http://localhost:8000/about" class="btn btn-primary my-2">About</a>
-                        <a href="#" class="btn btn-secondary my-2">Shamix Midterm</a>
+                        <a href="http://localhost:8000/contact" class="btn btn-secondary my-2">Contact</a>
                     </p>
 
             </div>
