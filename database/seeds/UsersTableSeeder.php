@@ -17,3 +17,5 @@ class UsersTableSeeder extends Seeder
     }
 }
 
+//50 cars inserted
+
