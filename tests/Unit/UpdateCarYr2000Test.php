@@ -17,8 +17,8 @@ class UpdateCarYr2000Test extends TestCase
     public function testUpdateCarYr2000()
 
     {
-        $car = Car::find(1);
-        $car->year = '2000';
-        $this->assertTrue($car->save());
+        $car = Car::find(40);
+        $car_year = (int) $car->year;
+        $this->assertInternalType('integer', $car_year);
     }
 }
