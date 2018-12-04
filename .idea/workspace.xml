@@ -66,7 +66,7 @@
           <entry key="cars" value="9" />
           <entry key="env" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="php" value="115" />
+          <entry key="php" value="116" />
           <entry key="sql" value="3" />
           <entry key="sqlite" value="1" />
           <entry key="users" value="27" />
@@ -79,7 +79,7 @@
           <entry key=".env file" value="1" />
           <entry key="Blade" value="16" />
           <entry key="Database Element" value="49" />
-          <entry key="PHP" value="99" />
+          <entry key="PHP" value="100" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Scratch" value="3" />
         </counts>
@@ -88,7 +88,7 @@
         <counts>
           <entry key="dummy" value="26" />
           <entry key="env" value="19" />
-          <entry key="php" value="1248" />
+          <entry key="php" value="1276" />
           <entry key="txt" value="35" />
         </counts>
       </usages-collector>
@@ -96,7 +96,7 @@
         <counts>
           <entry key=".env file" value="19" />
           <entry key="Blade" value="102" />
-          <entry key="PHP" value="1146" />
+          <entry key="PHP" value="1174" />
           <entry key="PLAIN_TEXT" value="61" />
         </counts>
       </usages-collector>
@@ -104,11 +104,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/Unit/InsertCarTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            <state relative-caret-position="240">
+              <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
               <folding>
                 <element signature="e#30#49#0#PHP" expanded="true" />
               </folding>
@@ -116,11 +116,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://013ff7d8-5293-4b9c-b3b2-406ac1aff8f2/schema/main/table/cars">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/Unit/UpdateCarYr2000Test.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+              <folding>
+                <element signature="e#30#49#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -167,6 +170,7 @@
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_12_03_214812_create_cars_table.php" />
         <option value="$PROJECT_DIR$/tests/Unit/InsertCarTest.php" />
+        <option value="$PROJECT_DIR$/tests/Unit/UpdateCarYr2000Test.php" />
       </list>
     </option>
   </component>
@@ -365,7 +369,7 @@
       <option name="presentableId" value="Default" />
       <updated>1543813387381</updated>
       <workItem from="1543813392163" duration="7359000" />
-      <workItem from="1543821819726" duration="26908000" />
+      <workItem from="1543821819726" duration="27533000" />
     </task>
     <task id="LOCAL-00001" summary="Task: Laravel Authentication Setup">
       <created>1543815875928</created>
@@ -378,7 +382,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34267000" />
+    <option name="totallyTimeSpent" value="34892000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -391,6 +395,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-121" y="-1522" width="1946" height="1420" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22373949" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -402,7 +407,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
-      <window_info anchor="bottom" id="Database Console" order="7" weight="0.3294893" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32906628" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="10" weight="0.3289689" />
@@ -767,8 +772,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/Unit/InsertCarTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        <state relative-caret-position="240">
+          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding>
+            <element signature="e#30#49#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/UpdateCarYr2000Test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding>
             <element signature="e#30#49#0#PHP" expanded="true" />
           </folding>
