@@ -17,7 +17,7 @@ class CountUserTest extends TestCase
     public function testCountUser()
     {
         $userCount = 50;
-        $users = factory(User::class, 50 )->create();
+        $users = factory(User::class, 28 )->create();
         $this->assertLessThanOrEqual( $userCount, \count( $users ) );
         $this->assertTrue(true);
     }

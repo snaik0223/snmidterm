@@ -19,7 +19,7 @@ class UpdateUserTest extends TestCase
     /** updating user 42. Kevon Stracke $user */
 
     {
-        $user = User::find(42);
+        $user = User::find(78);
         $user->name = 'Steve Smith';
         $this->assertTrue($user->save());
     }
